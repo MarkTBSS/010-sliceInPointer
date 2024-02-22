@@ -7,8 +7,8 @@ func sliceChange(a []int) {
 	a = append(a, 4) // nothing happens
 }
 
-func sliceChangeByPointer(a *[]int) {
-	*a = append(*a, 4)
+func sliceChangeByPointer(b *[]int) {
+	*b = append(*b, 4)
 }
 
 func main() {
